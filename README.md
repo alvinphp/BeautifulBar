@@ -13,4 +13,8 @@
 Para utilizar la librería, simplemente incluye el archivo PHP que contiene la clase `BeautifulBar` en tu proyecto.
 
 ```php
-include 'path/to/BeautifulBar.php';
+include 'path/to/BeautifulBar.Class.php';
+// Cambia el color o muestra un error si el color no es válido
+BeautifulBar::AddColorBarBrowser('#ff5733');  
+
+
