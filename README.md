@@ -10,11 +10,12 @@
 
 ## Instalación
 
-Para utilizar la librería, simplemente incluye el archivo PHP que contiene la clase `BeautifulBar` en tu proyecto.
+Para utilizar la librería, simplemente incluye el archivo PHP que contiene la clase `BeautifulBar` en tu proyecto y llama al método correspondiente.
+
+### Ejemplo de uso:
 
 ```php
-include 'path/to/BeautifulBar.Class.php';
-// Cambia el color o muestra un error si el color no es válido
+include 'path/to/BeautifulBar.Class.php';  // Asegúrate de usar la ruta correcta del archivo PHP
+
+// Cambia el color de la barra de búsqueda a un tono de color (#ff5733) o muestra un error si el color no es válido
 BeautifulBar::AddColorBarBrowser('#ff5733');  
-
-
